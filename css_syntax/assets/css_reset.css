@@ -37,9 +37,15 @@ body {
 .ingredients-list {
   list-style: square inside ;
 }
-
+#logo {
+  width: 100px;
+}
 ol, ul {
   list-style: circle inside;
+
+}
+li < ol, ul {
+  color: inherit
 }
 blockquote, q {
   quotes: none;
